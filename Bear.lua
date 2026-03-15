@@ -2641,7 +2641,7 @@ local function performClick()
     getgenv().AutoClickShootSettings.LastClickTime = currentTime
 end
 
-local bearlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Myvkhuy/BearLibrary/Bearlib/V8.1.lua"))()
+local bearlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/fourhub13/FourHub/refs/heads/main/FourHubUI2.lua"))()
 local Window = bearlib:MakeWindow({
     Title = "FourHub | Blox Fruits Farm",
     SubTitle = "by jokerbiel13",
