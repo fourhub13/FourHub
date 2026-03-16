@@ -2643,8 +2643,8 @@ end
 
 local bearlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/fourhub13/FourHub/refs/heads/main/FourHubUI2.lua"))()
 local Window = bearlib:MakeWindow({
-    Title = "Four hub | Farm",
-    SubTitle = "by Quang Huy",
+    Title = "Four Hub | Blox Fruits Farm",
+    SubTitle = "by jokerbiel13",
     SaveFolder = true,
     Image = "82107905019656"
 })
