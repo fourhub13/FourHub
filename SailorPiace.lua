@@ -4578,9 +4578,12 @@ end)
 GB.Information.Right.Others:AddLabel("Some features are disabled, it is because your executor lacks the required functions.", true)
 
 
+local HttpService = game:GetService("HttpService")
+
 GB.Information.Right.Others:AddButton({ 
     Text = "Join Discord Server",
     Func = function()
+
         local inviteCode = "cUwR4tUJv3"
         local inviteLink = "https://discord.gg/" .. inviteCode
 
@@ -4601,7 +4604,11 @@ GB.Information.Right.Others:AddButton({
                 })
             end)
         end
-  
+
+        if setclipboard then
+            setclipboard(inviteLink)
+        end
+
     end
 })
 
