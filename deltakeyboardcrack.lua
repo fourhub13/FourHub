@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/cracked.txt", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fourhub13/FourHub/refs/heads/main/CrackedKB.lua", true))()
 
 --[[
 	Delta Mobile | Keyboard Script
