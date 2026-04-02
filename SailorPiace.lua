@@ -1,3 +1,4 @@
+--FH
 if getgenv().FourHub_Running then
     warn("Script already running!")
     return
