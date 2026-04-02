@@ -6009,7 +6009,7 @@ TB_Tabs.Puzzle.T1:AddButton({
 })
 
 TB_Tabs.Puzzle.T2:AddLabel({
-    Text = "- âš ï¸: Experimental feature. Deep testing required!\n- âš ï¸: Make sure to store your race & clan before using this.\n- Dungeon tasks only make you join dungeon.\n- Feature will change some other features settings.\n- Report any bugs on discord server!",
+    Text = "Experimental feature. Deep testing required!\n-: Make sure to store your race & clan before using this.\n- Dungeon tasks only make you join dungeon.\n- Feature will change some other features settings.\n- Report any bugs on discord server!",
     DoesWrap = true,
 })
 
