@@ -1018,7 +1018,7 @@ local function PostToWebhook()
     local desc = "### Sailor Piece\n"
     
     if selected["Name"] then
-        desc = desc .. string.format("\nðŸ‘¤ **Player:** ||%s||\n", Plr.Name)
+        desc = desc .. string.format("\ **Player:** ||%s||\n", Plr.Name)
     end
 
     if selected["Stats"] then
@@ -1027,11 +1027,11 @@ local function PostToWebhook()
         local gainedGems = data.Gems.Value - StartStats.Gems
         local gainedBounty = bounty - StartStats.Bounty
 
-        desc = desc .. string.format("ðŸ“ˆ **Level:** `%s` (+%d)\n", CommaFormat(data.Level.Value), gainedLvl)
-        desc = desc .. string.format("ðŸ’° **Currency:** ðŸ’µ %s (+%s) | ðŸ’Ž %s (+%s)\n", 
+        desc = desc .. string.format("**Level:** (+%d)\n", CommaFormat(data.Level.Value), gainedLvl)
+        desc = desc .. string.format("**Currency:** (+%s) |  (+%s)\n", 
             Abbreviate(data.Money.Value), Abbreviate(gainedMoney),
             CommaFormat(data.Gems.Value), CommaFormat(gainedGems))
-        desc = desc .. string.format("â˜ ï¸ **Bounty:** %s (+%s)\n", Abbreviate(bounty), Abbreviate(gainedBounty))
+        desc = desc .. string.format("**Bounty:**  (+%s)\n", Abbreviate(bounty), Abbreviate(gainedBounty))
     end
     
     desc = desc .. "\n"
@@ -1048,7 +1048,7 @@ local function PostToWebhook()
         end
 
         if next(filteredNew) then
-            desc = desc .. "âœ¨ **New Items**\n"
+            desc = desc .. "**New Items**\n"
             desc = desc .. GetFormattedItemSections(filteredNew, true) .. "\n"
         end
     end
@@ -1061,7 +1061,7 @@ local function PostToWebhook()
 
         if #filteredInv > 0 then
             desc = desc .. "---"
-            desc = desc .. "\nðŸŽ’ **Inventory**\n"
+            desc = desc .. "\**Inventory**\n"
             desc = desc .. GetFormattedItemSections(filteredInv, false)
         end
     end
