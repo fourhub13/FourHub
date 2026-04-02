@@ -4504,7 +4504,7 @@ local function GetData()
     local premium = true
     local expire = 9999999999
 
-    local tier = "<font color='#FFFFFF>Beta User</font>"
+    local tier = "<font color='#00bfff'>Beta User</font>"
 
     local timeStr = "Lifetime"
 
@@ -4575,7 +4575,7 @@ GB.Information.Left.Game:AddButton("Redeem All Codes", function()
     end
 end)
 
-GB.Information.Right.Others:AddLabel("- âš ï¸ If some features are disabled, it is because your executor lacks the required functions.", true)
+GB.Information.Right.Others:AddLabel("Some features are disabled, it is because your executor lacks the required functions.", true)
 
 
 GB.Information.Right.Others:AddButton({ 
