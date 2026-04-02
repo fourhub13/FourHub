@@ -4320,8 +4320,8 @@ local function Func_ArtifactAutomation()
 end
 
 local Window = Library:CreateWindow({
-	Title = "4HUB | Sailor Piece",
-	Footer = "" .. assetName .. " | by FourHub | Sailor Piece | STRONGEST OF HACKER",
+	Title = "FourHub | SP",
+	Footer = "" .. assetName .. " | by jokerbiel13 | Sailor Piece | Version 1.5 Beta",
 	NotifySide = "Right",
     Icon = tostring(theChosenOne),
 	ShowCustomCursor = false,
