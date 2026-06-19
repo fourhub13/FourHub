@@ -1,4 +1,4 @@
-local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/enzoplaaygamemg12/RedzhubUiRedux/refs/heads/main/RedzHubUiLib.lua"))()
+local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Horizon-Developments/RedzhubUiRedux/6cd3ec90e5721c291011672f14aa2feaeef186c1/RedzHubUiLib.lua"))()
 workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = Libary:MakeWindow({
